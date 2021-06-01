@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/choosefunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите режим"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        />
+    <RadioGroup
+        android:id="@+id/functions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/choosefunction"
+        >
+        <RadioButton
+            android:id="@+id/function1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Совпадение по одному"
+            android:textSize="28dp"
+            android:layoutDirection="rtl"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/maincolor"
+            android:checked="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Поиск совпадений по одному ингредиенту рецепта"
+            android:textSize="20dp"
+            android:textColor="#555555"
+            android:layout_margin="10dp"
+            />
+        <RadioButton
+            android:id="@+id/function2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Совпадение по половине"
+            android:textSize="28dp"
+            android:layoutDirection="rtl"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/maincolor"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Поиск совпадений по половине ингредиентов рецепта"
+            android:textSize="20dp"
+            android:textColor="#555555"
+            android:layout_margin="10dp"
+            />
+        <RadioButton
+            android:id="@+id/function3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Точное совпадение"
+            android:textSize="28dp"
+            android:layoutDirection="rtl"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/maincolor"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Поиск совпадеине по всем ингредиентам рецепта"
+            android:textSize="20dp"
+            android:textColor="#555555"
+            android:layout_margin="10dp"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/onback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/maincolor"
+        android:layout_alignParentBottom="true"
+        android:text="Выбрать режим"
+        android:textColor="@color/white100"
+        android:textSize="15dp"
+        />
+</RelativeLayout>

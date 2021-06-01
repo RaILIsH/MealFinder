@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rgb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mflogolol"
+        android:label="Meal Finder"
+        android:roundIcon="@mipmap/mflogolol_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".ReceptInformation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Spisok"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Search"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".SettingsInfo"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ChoosingFunction"
+            android:screenOrientation="portrait"
+            />
+    </application>
+</manifest>

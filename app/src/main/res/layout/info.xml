@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <uk.co.deanwild.flowtextview.FlowTextView
+        android:id="@+id/ftv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        >
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingRight="10dp"
+            android:src="@drawable/numbers"
+            />
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="56dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white100"
+            android:textSize="35dp"
+            android:text="1"
+            android:gravity="center"
+            />
+    </uk.co.deanwild.flowtextview.FlowTextView>
+</RelativeLayout>

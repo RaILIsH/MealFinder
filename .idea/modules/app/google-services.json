@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "588456598735",
+    "project_id": "mealfinderstorage",
+    "storage_bucket": "mealfinderstorage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588456598735:android:b0867c13ecd74c647a6bba",
+        "android_client_info": {
+          "package_name": "com.example.rgb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588456598735-mmf71r2oombptvgvj1cacb8kenshds7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rgb",
+            "certificate_hash": "925a3e8b69fde4a06093611a210a907cb24fffa4"
+          }
+        },
+        {
+          "client_id": "588456598735-965il0p39e59fdg8mrjc4qj26leqhspj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARIKUqh0mGSoYQSmCcVC0gveKSiKIXPbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588456598735-965il0p39e59fdg8mrjc4qj26leqhspj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Настройки"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="3dp"
+        >
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/maintext"
+        />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/mflogowhite"
+
+        />
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Версия 1.0"
+        android:layout_below="@+id/logo"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <View
+        android:id="@+id/belowbutton"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/version"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <Button
+        android:id="@+id/howtouse"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/belowbutton"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Советы по использованию"
+        android:gravity="center"
+        android:textSize="27dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignLeft="@+id/howtouse"
+        android:layout_alignTop="@+id/howtouse"
+        android:layout_alignStart="@+id/howtouse"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_right_arrow"
+        android:layout_alignEnd="@+id/howtouse"
+        android:layout_alignTop="@+id/howtouse"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/howtouse"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Обратная связь"
+        android:gravity="center"
+        android:textSize="27dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignLeft="@+id/call"
+        android:layout_alignTop="@+id/call"
+        android:layout_alignStart="@+id/call"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_right_arrow"
+        android:layout_alignEnd="@+id/call"
+        android:layout_alignTop="@+id/call"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        />
+</RelativeLayout>

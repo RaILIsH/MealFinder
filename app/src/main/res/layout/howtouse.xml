@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/sovet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Приложение состоит из 4-х основных вкладок:"
+                android:textSize="30dp"
+                android:layout_marginLeft="5dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@id/sovet"
+                />
+            <RelativeLayout
+                android:id="@+id/sovet1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sovet"
+                android:background="@drawable/beautifully"
+                android:layout_marginTop="10dp"
+                >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Во вкладке «Холодильник» Вы можете добавить ингредиенты, из которых Вы хотите сделать блюдо."
+                        android:textSize="28dp"
+                        android:layout_margin="10dp"
+                        />
+             </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/sovet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sovet1"
+            android:background="@drawable/beautifully"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Во вкладке «Рецепты» Вы можете посмотреть пошаговый рецепт блюда, из ингредиентов, которые Вы выбрали во вкладке «Холодильник»."
+                android:textSize="28dp"
+                android:layout_margin="10dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/sovet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sovet2"
+            android:background="@drawable/beautifully"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Во вкладке «Еда» Вы можете посмотреть различные пошаговые рецепты, которые разделены по тематическим группам."
+                android:textSize="28dp"
+                android:layout_margin="10dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/sovet4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sovet3"
+            android:background="@drawable/beautifully"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Во вкладке «Настройки» Вы можете ознакомиться с основной информацией о приложении и связаться с нами."
+                android:textSize="28dp"
+                android:layout_margin="10dp"
+                />
+        </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
